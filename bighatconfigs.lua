@@ -14,6 +14,8 @@ bighat = {}
 
 table.insert(bighat, {x = 0, y = 0, height = 4, graphic = love.graphics.newImage("graphics/SMB/bighats/standard.png")})
 
+table.insert(bighat, {x = -2, y = -7, height = 10, graphic = love.graphics.newImage("graphics/SMB/bighats/tophat.png")})
+
 table.insert(bighat, {x = -2, y = -3, height = 5, graphic = love.graphics.newImage("graphics/SMB/bighats/tyrolean.png")})
 
 table.insert(bighat, {x = -2, y = -2, height = 5, graphic = love.graphics.newImage("graphics/SMB/bighats/towering1.png")})
@@ -66,14 +68,12 @@ table.insert(bighat, {x = -3, y = -1, height = 4, graphic = love.graphics.newIma
 
 table.insert(bighat, {x = -1, y = 0, height = 3, graphic = love.graphics.newImage("graphics/SMB/bighats/sailor.png")})
 
-table.insert(bighat, {x = -3, y = 0, height = 5, graphic = love.graphics.newImage("graphics/SMB/bighats/koopa.png")})
+table.insert(bighat, {x = -2, y = -7, height = 10, graphic = love.graphics.newImage("graphics/SMB/bighats/tophat-o.png")})
 
-table.insert(bighat, {x = -2, y = -5, height = 5, graphic = love.graphics.newImage("graphics/SMB/bighats/blooper.png")})
+table.insert(bighat, {x = -2, y = -7, height = 10, graphic = love.graphics.newImage("graphics/SMB/bighats/tophat-b.png")})
 
-table.insert(bighat, {x = -1, y = 1, height = 3, graphic = love.graphics.newImage("graphics/SMB/bighats/shyguy.png")})
+table.insert(bighat, {x = -2, y = -7, height = 10, graphic = love.graphics.newImage("graphics/SMB/bighats/tophat-o-both.png")})
 
-table.insert(bighat, {x = -1, y = 3, height = 4, graphic = love.graphics.newImage("graphics/SMB/bighats/goodnewseverybody.png")})
+table.insert(bighat, {x = -2, y = -7, height = 10, graphic = love.graphics.newImage("graphics/SMB/bighats/tophat-b-both.png")})
 
-table.insert(bighat, {x = -3, y = -1, height = 5, graphic = love.graphics.newImage("graphics/SMB/bighats/jetset.png")})
 
-table.insert(bighat, {x = -2, y = 0, height = 5, graphic = love.graphics.newImage("graphics/SMB/bighats/bestpony.png")})

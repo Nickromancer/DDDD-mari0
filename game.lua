@@ -2701,6 +2701,13 @@ function game_keypressed(key, unicode)
 		return
 	end
 
+	--matdddd
+	if key == "r" then
+		local player = objects["player"][1]
+		player.hats = {2}
+		player.bighats = {2}
+	end
+
 	if endpressbutton then
 		endpressbutton = false
 		endgame()
@@ -2901,6 +2908,22 @@ function shootportal(plnumber, i, sourcex, sourcey, direction)
 
 	local cox, coy, side, tendency, x, y = traceline(sourcex, sourcey, direction)
 	table.insert(portalprojectiles, portalprojectile:new(sourcex, sourcey, x, y, color, true, {plnumber, i, cox, coy, side, tendency, x, y}))
+
+
+	--Matdddd
+	local player = objects["player"][plnumber] 
+
+	if i == 1 and player.portal2X then
+		player.hats = {32}
+	elseif i == 1 then
+		player.hats = {30}
+	end
+	
+	if i == 2 and player.portal1X then
+		player.hats = {31}
+	elseif i == 2 then
+		player.hats = {29}
+	end
 end
 
 function game_mousepressed(x, y, button)
@@ -2934,6 +2957,8 @@ function game_mousepressed(x, y, button)
 					local sourcex = objects["player"][mouseowner].x+6/16
 					local sourcey = objects["player"][mouseowner].y+6/16
 					local direction = objects["player"][mouseowner].pointingangle
+					
+
 
 					shootportal(mouseowner, 1, sourcex, sourcey, direction)
 				elseif playertype == "minecraft" then
@@ -3942,6 +3967,7 @@ function game_joystickpressed( joystick, button )
 				return
 			elseif s3[1] == "joy" and joystick == s3[2] and s3[3] == "but" and button == s3[4] then
 				objects["player"][i]:removeportals()
+
 				return
 			elseif s4[1] == "joy" and joystick == s4[2] and s4[3] == "but" and button == s4[4] then
 				objects["player"][i]:use()
