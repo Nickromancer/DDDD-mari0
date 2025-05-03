@@ -97,6 +97,7 @@ function mario:init(x, y, i, animation, size, t)
 	self.hats = mariohats[self.playernumber]
 	self.drawhat = true
 
+
 	--Change height according to hats
 
 	--for i = 1, #self.hats do

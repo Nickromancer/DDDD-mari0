@@ -1642,8 +1642,8 @@ function game_draw()
 					end
 
 					-- matDDDD draw hat at portal destination
-					if portalpossible and objects["player"][pl].hats and #objects["player"][pl].hats > 0 then
-						local hatid = objects["player"][pl].hats[1]
+					if portalpossible and objects["player"][pl].hats2 and #objects["player"][pl].hats2 > 0 then
+						local hatid = objects["player"][pl].hats2[1]
 						local img, offsetX, offsetY
 
 						if objects["player"][pl].size == 2 and bighat[hatid] then
@@ -2231,6 +2231,9 @@ function startlevel(level)
 		else
 			objects["player"][i] = mario:new(1.5 + (i-1)*mul-6/16+1.5, 13, i, animation, mariosizes[i], playertype)
 		end
+	
+		-- matdddd
+		objects["player"][i].hats2 = {2} -- initialize portal hat 
 	end
 
 	--PLAY BGM
@@ -2724,7 +2727,7 @@ function game_keypressed(key, unicode)
 	--matdddd
 	if key == "r" then
 		local player = objects["player"][1]
-		player.hats = {2}
+		player.hats2 = {2}
 		player.bighats = {2}
 	end
 
@@ -2934,15 +2937,15 @@ function shootportal(plnumber, i, sourcex, sourcey, direction)
 	local player = objects["player"][plnumber] 
 
 	if i == 1 and player.portal2X then
-		player.hats = {32}
+		player.hats2 = {32}
 	elseif i == 1 then
-		player.hats = {30}
+		player.hats2 = {30}
 	end
 	
 	if i == 2 and player.portal1X then
-		player.hats = {31}
+		player.hats2 = {31}
 	elseif i == 2 then
-		player.hats = {29}
+		player.hats2 = {29}
 	end
 end
 
