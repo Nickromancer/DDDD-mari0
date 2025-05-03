@@ -1631,7 +1631,6 @@ function game_draw()
 								end
 							end
 
-
 							if portalpossible == false then
 								love.graphics.setColor(1, 0, 0, alpha)
 							else
@@ -1639,6 +1638,27 @@ function game_draw()
 							end
 
 							love.graphics.draw(portaldotimg, math.floor(dotx-0.25*scale), math.floor(doty-0.25*scale), 0, scale, scale)
+						end
+					end
+
+					-- matDDDD draw hat at portal destination
+					if portalpossible and objects["player"][pl].hats and #objects["player"][pl].hats > 0 then
+						local hatid = objects["player"][pl].hats[1]
+						local img, offsetX, offsetY
+
+						if objects["player"][pl].size == 2 and bighat[hatid] then
+							img = bighat[hatid].graphic
+							offsetX = 7
+							offsetY = 4
+						elseif hat[hatid] then
+							img = hat[hatid].graphic
+							offsetX = 7
+							offsetY = 4
+						end
+
+						if img then
+							love.graphics.setColor(1, 1, 1, 1)
+							love.graphics.draw(img, (x-xscroll)*16*scale, (y-.5)*16*scale, 0, scale, scale, offsetX, offsetY)
 						end
 					end
 
