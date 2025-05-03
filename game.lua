@@ -1648,12 +1648,12 @@ function game_draw()
 
 						if objects["player"][pl].size == 2 and bighat[hatid] then
 							img = bighat[hatid].graphic
-							offsetX = 7
-							offsetY = 4
+							offsetX = 6
+							offsetY = 0
 						elseif hat[hatid] then
 							img = hat[hatid].graphic
-							offsetX = 7
-							offsetY = 4
+							offsetX = 6
+							offsetY = 0
 						end
 
 						if img then
