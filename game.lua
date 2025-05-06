@@ -3,7 +3,15 @@ function game_load(suspended)
 	-- REMEMBER TO CHANGE PATHING
 --[[ 	file = assert(io.open("C:\\Users\\Nicky\\Desktop\\DDDD-mari0\\ABTests\\Log.txt", "a"))
 	io.input(file) ]]
+	file:write("--------------------------------------------------------------------------------" .. "\n")
 	file:write(os.date() .. "\n")
+	deaths = 0
+	portalCount = 0
+	orangePortalCount = 0
+	bluePortalCount = 0
+	successfullBluePortal = 0
+	successfullOrangePortal = 0
+
 	scrollfactor = 0
 	backgroundcolor = {}
 	backgroundcolor[1] = {92/255, 148/255, 252/255}
@@ -2868,10 +2876,11 @@ function createportal(plnumber, i, cox, coy, side, tendency, x, y)
 
 			if i == 1 then
 				playsound(portal1opensound)
+				successfullBluePortal = successfullBluePortal + 1
 			else
 				playsound(portal2opensound)
+				successfullOrangePortal = successfullOrangePortal + 1
 			end
-
 
 			for i, v in pairs(objects["lightbridge"]) do
 				v:updaterange()
@@ -2890,6 +2899,7 @@ function createportal(plnumber, i, cox, coy, side, tendency, x, y)
 		end
 		if newx ~= nil and newy ~= nil then
 			file:write("X: " .. newx .. " Y: " .. newy .. "\n")
+			portalCount = portalCount + 1
 		end
 	end
 end
@@ -2950,6 +2960,7 @@ function game_mousepressed(x, y, button)
 					local direction = objects["player"][mouseowner].pointingangle
 
 					shootportal(mouseowner, 1, sourcex, sourcey, direction)
+					bluePortalCount = bluePortalCount + 1
 				elseif playertype == "minecraft" then
 					local v = objects["player"][mouseowner]
 					local sourcex, sourcey = v.x+6/16, v.y+6/16
@@ -2972,6 +2983,7 @@ function game_mousepressed(x, y, button)
 					local direction = objects["player"][mouseowner].pointingangle
 
 					shootportal(mouseowner, 2, sourcex, sourcey, direction)
+					orangePortalCount = orangePortalCount + 1
 				elseif playertype == "minecraft" then
 					local v = objects["player"][mouseowner]
 					local sourcex, sourcey = v.x+6/16, v.y+6/16
@@ -3065,6 +3077,7 @@ function modifyportalwalls()
 		modifyportaltiles(newx, newy, 0, 1, plnumber, i, "remove")
 	end
 	file:write("X: " .. newx .. " Y: " .. newy .. "\n")
+	portalCount = portalCount + 1
 end
 
 function modifyportaltiles(x, y, xplus, yplus, plnumber, i, mode)
@@ -3466,6 +3479,7 @@ end
 function nextlevel()
 	love.audio.stop()
 	mariolevel = mariolevel + 1
+	file:write("Level: " .. mariolevel .. "\n")
 	if mariolevel > 4 then
 		mariolevel = 1
 		marioworld = marioworld + 1
@@ -4312,6 +4326,12 @@ function respawnplayers()
 end
 
 function love.quit()
+	file:write("Total Deaths: " .. deaths .. "\n")
+	file:write("Total Portals: " .. portalCount .. "\n")
+	file:write("Total Blue Shots: " .. bluePortalCount .. "\n")
+	file:write("Total Orange Shots: " .. orangePortalCount .. "\n")
+	file:write("Total Successfull Blue Portals: " .. successfullBluePortal .. "\n")
+	file:write("Total Successfull Orange Portals: " .. successfullOrangePortal .. "\n")
 	file:write("END" .. "\n")
 	file:close()
 end

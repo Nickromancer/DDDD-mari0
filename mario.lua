@@ -2627,7 +2627,8 @@ function mario:die(how)
 		love.audio.stop()
 	end
 
-	file:write("DEAD: " .. "X: " .. self.x .. " Y: " .. self.y .. "\n")
+	file:write("DEAD: " .. "X: " .. math.floor(self.x + 0.5) .. " Y: " .. math.floor(self.y + 0.5) .. "\n")
+	deaths = deaths + 1
 	playsound(deathsound)
 
 	if how == "time" then
