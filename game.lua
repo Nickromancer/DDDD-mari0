@@ -1,4 +1,9 @@
+
 function game_load(suspended)
+	-- REMEMBER TO CHANGE PATHING
+--[[ 	file = assert(io.open("C:\\Users\\Nicky\\Desktop\\DDDD-mari0\\ABTests\\Log.txt", "a"))
+	io.input(file) ]]
+	file:write(os.date() .. "\n")
 	scrollfactor = 0
 	backgroundcolor = {}
 	backgroundcolor[1] = {92/255, 148/255, 252/255}
@@ -2388,6 +2393,7 @@ function loadmap(filename)
 					elseif t == "platformspawnerdown" then
 						table.insert(platformspawners, platformspawner:new(x, y, "down", r[3]))
 
+
 					elseif t == "box" then
 						table.insert(objects["box"], box:new(x, y))
 
@@ -2587,6 +2593,8 @@ function generatespritebatch()
 							smbmsb:add( tilequads[tilenumber].quad, (x-1)*16*scale, ((y-1)*16-8)*scale, 0, scale, scale )
 						elseif tilenumber <= smbtilecount+portaltilecount then
 							portalmsb:add( tilequads[tilenumber].quad, (x-1)*16*scale, ((y-1)*16-8)*scale, 0, scale, scale )
+			
+
 						elseif tilenumber <= smbtilecount+portaltilecount+customtilecount then
 							custommsb:add( tilequads[tilenumber].quad, (x-1)*16*scale, ((y-1)*16-8)*scale, 0, scale, scale )
 						end
@@ -2598,6 +2606,8 @@ function generatespritebatch()
 end
 
 function game_keypressed(key, unicode)
+	file = assert(io.open("C:\\Users\\Nicky\\Desktop\\DDDD-mari0\\ABTests\\Log.txt", "a"))
+	io.input(file)
 	if pausemenuopen then
 		if menuprompt then
 			if (key == "left" or key == "a") then
@@ -2706,7 +2716,6 @@ function game_keypressed(key, unicode)
 		endgame()
 		return
 	end
-
 	for i = 1, players do
 		if controls[i]["jump"][1] == key then
 			objects["player"][i]:jump()
@@ -2792,7 +2801,6 @@ function createportal(plnumber, i, cox, coy, side, tendency, x, y)
 				objects["player"][plnumber].portal2Y = newy
 				objects["player"][plnumber].portal2facing = side
 			end
-
 			--physics
 			--Recreate old hole
 			if oldfacing == "up" then
@@ -2817,17 +2825,20 @@ function createportal(plnumber, i, cox, coy, side, tendency, x, y)
 				objects["portalwall"][plnumber .. "-" .. i .. "-2"] = portalwall:new(newx-2, newy-1, 0, 1, true)
 				objects["portalwall"][plnumber .. "-" .. i .. "-3"] = portalwall:new(newx, newy-1, 0, 1, true)
 
+
 				modifyportaltiles(newx, newy, -1, 0, plnumber, i, "remove")
 			elseif side == "left" then
 				objects["portalwall"][plnumber .. "-" .. i .. "-1"] = portalwall:new(newx, newy-2, 0, 2, true)
 				objects["portalwall"][plnumber .. "-" .. i .. "-2"] = portalwall:new(newx-1, newy-2, 1, 0, true)
 				objects["portalwall"][plnumber .. "-" .. i .. "-3"] = portalwall:new(newx-1, newy, 1, 0, true)
 
+
 				modifyportaltiles(newx, newy, 0, -1, plnumber, i, "remove")
 			elseif side == "right" then
 				objects["portalwall"][plnumber .. "-" .. i .. "-1"] = portalwall:new(newx-1, newy-1, 0, 2, true)
 				objects["portalwall"][plnumber .. "-" .. i .. "-2"] = portalwall:new(newx-1, newy-1, 1, 0, true)
 				objects["portalwall"][plnumber .. "-" .. i .. "-3"] = portalwall:new(newx-1, newy+1, 1, 0, true)
+
 
 				modifyportaltiles(newx, newy, 0, 1, plnumber, i, "remove")
 			end
@@ -2876,6 +2887,9 @@ function createportal(plnumber, i, cox, coy, side, tendency, x, y)
 			else
 				objects["player"][plnumber].portal2X, objects["player"][plnumber].portal2Y = oldx, oldy
 			end
+		end
+		if newx ~= nil and newy ~= nil then
+			file:write("X: " .. newx .. " Y: " .. newy .. "\n")
 		end
 	end
 end
@@ -3033,11 +3047,13 @@ function modifyportalwalls()
 		objects["portalwall"][plnumber .. "-" .. i .. "-2"] = portalwall:new(newx-2, newy-1, 0, 1, true)
 		objects["portalwall"][plnumber .. "-" .. i .. "-3"] = portalwall:new(newx, newy-1, 0, 1, true)
 
+
 		modifyportaltiles(newx, newy, -1, 0, plnumber, i, "remove")
 	elseif side == "left" then
 		objects["portalwall"][plnumber .. "-" .. i .. "-1"] = portalwall:new(newx, newy-2, 0, 2, true)
 		objects["portalwall"][plnumber .. "-" .. i .. "-2"] = portalwall:new(newx-1, newy-2, 1, 0, true)
 		objects["portalwall"][plnumber .. "-" .. i .. "-3"] = portalwall:new(newx-1, newy, 1, 0, true)
+
 
 		modifyportaltiles(newx, newy, 0, -1, plnumber, i, "remove")
 	elseif side == "right" then
@@ -3045,8 +3061,10 @@ function modifyportalwalls()
 		objects["portalwall"][plnumber .. "-" .. i .. "-2"] = portalwall:new(newx-1, newy-1, 1, 0, true)
 		objects["portalwall"][plnumber .. "-" .. i .. "-3"] = portalwall:new(newx-1, newy+1, 1, 0, true)
 
+
 		modifyportaltiles(newx, newy, 0, 1, plnumber, i, "remove")
 	end
+	file:write("X: " .. newx .. " Y: " .. newy .. "\n")
 end
 
 function modifyportaltiles(x, y, xplus, yplus, plnumber, i, mode)
@@ -4291,4 +4309,9 @@ function respawnplayers()
 			objects["player"][i]:respawn()
 		end
 	end
+end
+
+function love.quit()
+	file:write("END" .. "\n")
+	file:close()
 end

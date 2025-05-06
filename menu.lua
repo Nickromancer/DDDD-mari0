@@ -1,4 +1,6 @@
 function menu_load()
+	file = assert(io.open("C:\\Users\\Nicky\\Desktop\\DDDD-mari0\\ABTests\\Log.txt", "a"))
+	io.input(file)
 	love.audio.stop()
 	editormode = false
 	gamestate = "menu"

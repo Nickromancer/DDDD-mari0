@@ -2627,6 +2627,7 @@ function mario:die(how)
 		love.audio.stop()
 	end
 
+	file:write("DEAD: " .. "X: " .. self.x .. " Y: " .. self.y .. "\n")
 	playsound(deathsound)
 
 	if how == "time" then
