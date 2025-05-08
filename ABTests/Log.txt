@@ -1,450 +1,987 @@
-13,14
-13,13
-15,13
-15,14
-15,13
-17,13
-10,14
-10,13
-12,13
-11,14
-11,13
-13,13
-6,14
-6,13
-8,13
-20,9
-20,9
-22,9
-16,14
-16,13
-18,13
-33,14
-33,13
-35,13
-24,14
-24,13
-26,13
-23,9
-23,9
-25,9
-21,10
-21,9
-23,9
-34,14
-34,13
-36,13
-44,14
-44,13
-46,13
-66,14
-66,13
-68,13
-49,14
-49,13
-51,13
-8,14
-8,13
-10,13
-12,14
-12,13
-14,13
-16,14
-16,13
-18,13
-21,14
-21,13
-23,13
-31,14
-31,13
-33,13
-34,14
-34,13
-36,13
-24,14
-24,13
-26,13
-28,12
-28,11
-30,11
-33,14
-33,13
-35,13
-33,14
-33,13
-35,13
-33,14
-33,13
-35,13
-28,12
-28,11
-30,11
-12,14
-12,13
-14,13
-35,14
-35,13
-37,13
-10,14
-10,13
-12,13
-8,14
-8,13
-10,13
-0,14
-0,13
-2,13
-15,14
-15,13
-17,13
-22,10
-22,9
-24,9
-19,14
-19,13
-21,13
-10,14
-9,14
-9,13
-11,13
-5,14
-4,14
-4,13
-6,13
-9,14
-9,14
-1,14
-22,10
-30,12
-3,14
-23,10
-95,6
-5,14
-3,14
-6,14
-15,14
-24,14
-30,12
-52,14
-58,10
-54,14
-49,14
-47,10
-39,11
-40,12
-41,14
-31,14
-35,14
-72,14
-61,14
-67,14
-53,14
-59,10
-59,12
-59,12
-84,6
-90,15
-105,14
-121,14
-119,14
-123,14
-172,10
-172,10
-172,10
-172,10
-172,10
-171,10
-189,6
-189,6
-192,14
-196,14
-196,14
-197,14
-193,14
-1,14
-9,14
-13,14
-17,14
-12,14
-6,14
-9,14
-11,14
-39,1105/06/25 20:52:51
-05/06/25 20:52:51
-X: 14 Y: 14
-X: 19 Y: 14
-X: 22 Y: 10
-X: 10 Y: 14
-X: 12 Y: 14
-X: 16 Y: 14
-X: 15 Y: 14
-X: 17 Y: 14
-X: 19 Y: 14
-X: 21 Y: 14
-DEAD: X: 42.517485017986 Y: 12.25
-Level: 2
-X: 8 Y: 14
-END
-05/06/25 20:55:52
-X: 5 Y: 14
-X: 19 Y: 14
-END
-DEAD: X: 8.7375058253447 Y: 12.25
-05/06/25 21:00:06
-X: 22 Y: 10
-DEAD: X: 14.058698525182 Y: 12.25
-DEAD: X: 17.121648418926 Y: 12.25
-Total Deaths: 3END
-DEAD: X: 17.508654895251 Y: 12.25
-05/06/25 21:11:25
-X: 9 Y: 14
-X: 2 Y: 14
-X: 16 Y: 14
-X: 16 Y: 14
-X: 16 Y: 14
-X: 20 Y: 14
-X: 16 Y: 14
-X: 17 Y: 14
-X: 18 Y: 14
-X: 16 Y: 14
-X: 15 Y: 14
-X: 15 Y: 14
-X: 16 Y: 14
-X: 16 Y: 14
-X: 16 Y: 14
-X: 175 Y: 14
-X: 168 Y: 14
-Level: 2
-X: 54 Y: 3
-X: 49 Y: 14
-X: 43 Y: 8
-Total Deaths: 0
-Total Portals: 20
-Total Blue Portals: 0
-Total Orange Portals: 0
-END
 --------------------------------------------------------------------------------
-05/06/25 21:14:37
+05/08/25 10:44:29
+DEAD: X: 12 Y: 12
+X: 15 Y: 14
 X: 3 Y: 14
-X: 3 Y: 14
-X: 9 Y: 14
-X: 9 Y: 14
-X: 6 Y: 14
-X: 9 Y: 14
-X: 9 Y: 14
-X: 10 Y: 14
-X: 11 Y: 14
-X: 12 Y: 14
-Total Deaths: 0
-Total Portals: 10
-Total Blue Portals: 0
-Total Orange Portals: 0
-END
---------------------------------------------------------------------------------
-05/06/25 21:16:44
-X: 11 Y: 14
-X: 5 Y: 14
-X: 8 Y: 14
-X: 11 Y: 14
-X: 14 Y: 14
-Total Deaths: 0
-Total Portals: 11
-Total Blue Portals: 0
-Total Orange Portals: 0
-END
-X: 25 Y: 14
-X: 25 Y: 14
-X: 22 Y: 14
-X: 24 Y: 14
-X: 25 Y: 14
-X: 19 Y: 14
---------------------------------------------------------------------------------
-05/06/25 21:18:21
-X: 12 Y: 14
-SHOOT BLUEX: 3 Y: 14
-SHOOT BLUEX: 17 Y: 14
-Total Deaths: 0
-Total Portals: 3
-Total Blue Portals: 0
-Total Orange Portals: 0
-END
---------------------------------------------------------------------------------
-05/06/25 21:19:08
-X: 2 Y: 14
-X: 22 Y: 14
-X: 29 Y: 12
-X: 7 Y: 14
-X: 13 Y: 14
-X: 15 Y: 14
-X: 19 Y: 14
-X: 22 Y: 14
-X: 30 Y: 12
-X: 41 Y: 14
-X: 31 Y: 14
-X: 39 Y: 11
-X: 51 Y: 14
-X: 49 Y: 14
-X: 47 Y: 10
-X: 48 Y: 12
-X: 86 Y: 14
-X: 86 Y: 14
-X: 82 Y: 14
-X: 112 Y: 14
-X: 116 Y: 14
-X: 119 Y: 14
-X: 122 Y: 14
-X: 126 Y: 14
-X: 128 Y: 14
-X: 180 Y: 12
-X: 190 Y: 10
-X: 191 Y: 14
-Level: 2
-X: 18 Y: 3
-X: 4 Y: 14
-X: 54 Y: 3
-DEAD: X: 50.839568469014 Y: 12.25
-Total Deaths: 1
-Total Portals: 31
-Total Blue Portals: 63
-Total Orange Portals: 62
-END
---------------------------------------------------------------------------------
-05/06/25 21:27:06
-X: 2 Y: 14
-X: 5 Y: 14
-X: 20 Y: 14
-X: 23 Y: 14
-X: 3 Y: 14
-DEAD: X: 42 Y: 12
-X: 49 Y: 14
-X: 52 Y: 14
-X: 48 Y: 11
-X: 54 Y: 14
-X: 58 Y: 10
-X: 58 Y: 13
-X: 67 Y: 14
+X: 21 Y: 10
+X: 39 Y: 13
+X: 47 Y: 12
+X: 43 Y: 14
+X: 56 Y: 14
+X: 73 Y: 14
+X: 69 Y: 14
+X: 88 Y: 6
+X: 93 Y: 14
 X: 104 Y: 14
-DEAD: X: 70 Y: 15
-X: 103 Y: 14
-X: 74 Y: 14
-X: 162 Y: 14
+X: 86 Y: 14
+X: 115 Y: 14
+X: 110 Y: 14
+X: 102 Y: 14
+X: 111 Y: 14
+X: 121 Y: 14
+X: 124 Y: 14
+X: 118 Y: 14
+Level: 2
+X: 39 Y: 3
+X: 37 Y: 14
+X: 49 Y: 3
+X: 55 Y: 14
+X: 47 Y: 8
+X: 57 Y: 14
+X: 56 Y: 10
+X: 56 Y: 10
+X: 57 Y: 14
+X: 68 Y: 14
+X: 51 Y: 14
+X: 57 Y: 14
+X: 65 Y: 14
+X: 70 Y: 5
+X: 72 Y: 14
+DEAD: X: 75 Y: 12
+X: 74 Y: 8
+X: 77 Y: 14
+X: 36 Y: 14
+X: 40 Y: 3
+X: 53 Y: 14
+X: 62 Y: 14
+X: 47 Y: 3
+X: 55 Y: 12
 Total Deaths: 3
-Total Portals: 16
-Total Blue Portals: 17
-Total Orange Portals: 14
+Total Portals: 43
+Total Blue Shots: 35
+Total Orange Shots: 16
+Total Successfull Blue Portals: 31
+Total Successfull Orange Portals: 12
 END
+DEAD: X: 75 Y: 11
+--------------------------------------------------------------------------------
+05/08/25 10:57:45
+X: 24 Y: 10
+X: 29 Y: 13
+X: 39 Y: 13
+X: 47 Y: 11
+X: 39 Y: 11
+X: 40 Y: 12
+X: 39 Y: 13
+X: 47 Y: 11
+Level: 2
+X: 55 Y: 12
+X: 59 Y: 5
+DEAD: X: 103 Y: 9
+X: 110 Y: 3
+X: 104 Y: 12
+X: 108 Y: 3
+X: 104 Y: 13
+X: 114 Y: 3
+X: 110 Y: 12
+X: 116 Y: 13
+X: 118 Y: 3
+X: 122 Y: 3
+DEAD: X: 120 Y: 15
+X: 114 Y: 3
+X: 104 Y: 12
+DEAD: X: 155 Y: 15
+Total Deaths: 3
+Total Portals: 21
+Total Blue Shots: 11
+Total Orange Shots: 13
+Total Successfull Blue Portals: 10
+Total Successfull Orange Portals: 11
+END
+--------------------------------------------------------------------------------
+05/08/25 11:09:00
+X: 29 Y: 13
+X: 39 Y: 12
+X: 29 Y: 12
+X: 39 Y: 12
+X: 44 Y: 14
+X: 47 Y: 13
+X: 39 Y: 11
+X: 39 Y: 11
+X: 47 Y: 13
+DEAD: X: 56 Y: 12
+X: 58 Y: 13
+DEAD: X: 69 Y: 15
+--------------------------------------------------------------------------------
+05/08/25 11:19:21
+DEAD: X: 8 Y: 12
+X: 24 Y: 10
+DEAD: X: 43 Y: 12
+X: 47 Y: 11
+X: 40 Y: 12
+X: 47 Y: 11
+X: 58 Y: 11
+X: 40 Y: 11
+X: 48 Y: 11
+X: 58 Y: 12
+Total Deaths: 3
+Total Portals: 8
+Total Blue Shots: 14
+Total Orange Shots: 4
+Total Successfull Blue Portals: 5
+Total Successfull Orange Portals: 2
+END
+DEAD: X: 93 Y: 12
+--------------------------------------------------------------------------------
+05/08/25 11:27:11
+X: 24 Y: 10
+X: 29 Y: 13
+X: 45 Y: 14
+X: 42 Y: 14
+X: 54 Y: 14
+X: 77 Y: 14
+X: 74 Y: 14
+X: 82 Y: 14
+X: 97 Y: 14
+Level: 2
+X: 1 Y: 11
+X: 1 Y: 3
+X: 8 Y: 14
+X: 38 Y: 3
+X: 41 Y: 14
+X: 41 Y: 3
+X: 49 Y: 14
+X: 54 Y: 3
+X: 49 Y: 3
+X: 167 Y: 3
+X: 55 Y: 4
+X: 58 Y: 3
+X: 63 Y: 3
+Total Deaths: 0
+Total Portals: 22
+Total Blue Shots: 12
+Total Orange Shots: 15
+Total Successfull Blue Portals: 9
+Total Successfull Orange Portals: 13
+END
+--------------------------------------------------------------------------------
+05/08/25 11:33:39
+X: 13 Y: 14
+X: 24 Y: 10
+X: 24 Y: 10
+X: 25 Y: 10
+X: 21 Y: 14
+X: 15 Y: 14
+X: 21 Y: 14
+X: 23 Y: 14
+X: 23 Y: 14
+X: 24 Y: 14
+X: 24 Y: 10
+X: 23 Y: 14
+X: 53 Y: 14
+X: 41 Y: 14
+X: 55 Y: 14
+X: 75 Y: 14
+DEAD: X: 127 Y: 12
+X: 130 Y: 14
+X: 171 Y: 10
+X: 169 Y: 14
+X: 165 Y: 12
+X: 197 Y: 14
+X: 189 Y: 6
+X: 180 Y: 12
+X: 197 Y: 14
+X: 189 Y: 6
+Level: 2
+X: 9 Y: 14
+X: 14 Y: 10
+X: 20 Y: 13
+DEAD: X: 13 Y: 12
+X: 43 Y: 3
+X: 36 Y: 14
+X: 55 Y: 14
+X: 53 Y: 3
+X: 38 Y: 14
+X: 40 Y: 3
+X: 47 Y: 8
+X: 73 Y: 14
+X: 66 Y: 3
+X: 65 Y: 14
+X: 104 Y: 11
+X: 104 Y: 3
+Total Deaths: 3
+Total Portals: 40
+Total Blue Shots: 22
+Total Orange Shots: 24
+Total Successfull Blue Portals: 17
+Total Successfull Orange Portals: 19
+END
+DEAD: X: 159 Y: 15
+--------------------------------------------------------------------------------
+05/08/25 11:42:59
+X: 23 Y: 10
+X: 22 Y: 14
+X: 22 Y: 10
+X: 29 Y: 13
+X: 24 Y: 14
+X: 37 Y: 14
+X: 31 Y: 14
+X: 41 Y: 14
+X: 39 Y: 11
+X: 45 Y: 14
+X: 50 Y: 14
+X: 56 Y: 14
+X: 88 Y: 6
+X: 93 Y: 14
+X: 91 Y: 14
+X: 97 Y: 14
+X: 103 Y: 14
+X: 102 Y: 10
+X: 97 Y: 14
+X: 100 Y: 14
+X: 116 Y: 14
+X: 123 Y: 6
+X: 122 Y: 14
+X: 167 Y: 14
+Level: 2
+X: 13 Y: 3
+X: 12 Y: 14
+X: 7 Y: 14
+X: 10 Y: 3
+X: 28 Y: 3
+X: 28 Y: 12
+X: 40 Y: 9
+X: 38 Y: 14
+X: 45 Y: 10
+X: 41 Y: 10
+X: 54 Y: 3
+X: 58 Y: 14
+X: 73 Y: 14
+X: 48 Y: 14
+X: 68 Y: 8
+X: 56 Y: 5
+X: 62 Y: 14
+X: 85 Y: 9
+X: 86 Y: 3
+X: 78 Y: 10
+X: 73 Y: 14
+X: 79 Y: 5
+X: 100 Y: 3
+DEAD: X: 99 Y: 12
+X: 92 Y: 14
+X: 18 Y: 3
+X: 3 Y: 14
+X: 42 Y: 3
+X: 35 Y: 14
+X: 59 Y: 14
+X: 53 Y: 9
+X: 57 Y: 14
+X: 60 Y: 14
+X: 86 Y: 3
+X: 77 Y: 14
+X: 108 Y: 3
+X: 99 Y: 14
+X: 114 Y: 3
+X: 106 Y: 14
+X: 112 Y: 14
+X: 123 Y: 3
+X: 132 Y: 3
+X: 129 Y: 14
+X: 146 Y: 9
+X: 151 Y: 14
+X: 162 Y: 11
+X: 150 Y: 9
+X: 13 Y: 6
+X: 18 Y: 14
+X: 18 Y: 14
+X: 20 Y: 14
+Level: 3
+Total Deaths: 1
+Total Portals: 74
+Total Blue Shots: 48
+Total Orange Shots: 38
+Total Successfull Blue Portals: 37
+Total Successfull Orange Portals: 36
+END
+--------------------------------------------------------------------------------
+05/08/25 11:54:48
+X: 39 Y: 12
+X: 59 Y: 11
+X: 95 Y: 6
+X: 100 Y: 14
+X: 170 Y: 14
+DEAD: X: 154 Y: 15
 DEAD: X: 88 Y: 15
 --------------------------------------------------------------------------------
-05/06/25 21:29:04
-X: 6 Y: 14
-X: 5 Y: 14
-X: 5 Y: 14
-X: 5 Y: 14
-X: 5 Y: 14
-X: 5 Y: 14
-X: 5 Y: 14
-X: 5 Y: 14
-X: 5 Y: 14
-X: 5 Y: 14
-X: 5 Y: 14
-X: 5 Y: 14
-X: 5 Y: 14
-X: 5 Y: 14
-X: 5 Y: 14
-X: 5 Y: 14
-X: 5 Y: 14
-X: 5 Y: 14
+05/08/25 12:00:33
 X: 7 Y: 14
-Total Deaths: 0
-Total Portals: 19
-Total Blue Portals: 119
-Total Orange Portals: 82
+X: 22 Y: 10
+X: 22 Y: 10
+X: 21 Y: 14
+X: 27 Y: 14
+X: 21 Y: 14
+X: 24 Y: 14
+X: 25 Y: 10
+X: 27 Y: 14
+X: 44 Y: 14
+X: 47 Y: 11
+X: 42 Y: 14
+X: 43 Y: 14
+X: 41 Y: 14
+X: 45 Y: 14
+X: 85 Y: 14
+X: 93 Y: 6
+X: 102 Y: 14
+X: 93 Y: 14
+X: 132 Y: 14
+X: 131 Y: 6
+X: 123 Y: 6
+X: 168 Y: 14
+X: 152 Y: 10
+X: 92 Y: 14
+DEAD: X: 154 Y: 15
+X: 90 Y: 15
+X: 94 Y: 6
+X: 83 Y: 14
+X: 101 Y: 14
+X: 104 Y: 14
+X: 96 Y: 14
+X: 94 Y: 6
+DEAD: X: 87 Y: 15
+X: 86 Y: 6
+X: 103 Y: 14
+X: 94 Y: 14
+X: 94 Y: 6
+X: 83 Y: 14
+X: 87 Y: 6
+X: 102 Y: 10
+X: 110 Y: 14
+X: 102 Y: 10
+X: 117 Y: 14
+X: 123 Y: 14
+X: 122 Y: 14
+X: 131 Y: 14
+X: 131 Y: 6
+X: 116 Y: 14
+X: 170 Y: 10
+X: 171 Y: 14
+X: 174 Y: 14
+X: 172 Y: 10
+Level: 2
+X: 23 Y: 3
+X: 29 Y: 3
+X: 37 Y: 3
+X: 41 Y: 3
+X: 37 Y: 14
+X: 28 Y: 3
+X: 52 Y: 14
+X: 47 Y: 10
+X: 48 Y: 14
+X: 84 Y: 3
+X: 99 Y: 14
+X: 78 Y: 10
+X: 87 Y: 3
+X: 97 Y: 3
+X: 94 Y: 14
+Total Deaths: 3
+Total Portals: 68
+Total Blue Shots: 49
+Total Orange Shots: 36
+Total Successfull Blue Portals: 41
+Total Successfull Orange Portals: 27
+END
+DEAD: X: 110 Y: 7
+X: 99 Y: 14
+X: 111 Y: 3
+--------------------------------------------------------------------------------
+05/08/25 12:10:47
+DEAD: X: 7 Y: 12
+X: 8 Y: 14
+X: 10 Y: 14
+X: 44 Y: 14
+X: 47 Y: 13
+X: 52 Y: 14
+X: 51 Y: 14
+X: 99 Y: 14
+X: 96 Y: 14
+X: 90 Y: 14
+DEAD: X: 98 Y: 13
+X: 98 Y: 14
+X: 92 Y: 14
+DEAD: X: 96 Y: 12
+--------------------------------------------------------------------------------
+05/08/25 12:17:20
+X: 56 Y: 14
+X: 58 Y: 13
+X: 74 Y: 14
+X: 78 Y: 14
+X: 79 Y: 10
+X: 79 Y: 10
+X: 75 Y: 14
+X: 77 Y: 14
+X: 102 Y: 14
+X: 102 Y: 10
+X: 110 Y: 14
+DEAD: X: 172 Y: 12
+X: 103 Y: 14
+X: 102 Y: 10
+X: 110 Y: 14
+X: 125 Y: 14
+X: 126 Y: 14
+X: 121 Y: 14
+X: 124 Y: 6
+X: 123 Y: 14
+X: 129 Y: 14
+X: 130 Y: 6
+X: 190 Y: 6
+X: 190 Y: 12
+X: 194 Y: 14
+Level: 2
+X: 27 Y: 3
+X: 10 Y: 14
+X: 20 Y: 13
+X: 15 Y: 10
+X: 20 Y: 13
+X: 26 Y: 13
+X: 24 Y: 12
+X: 32 Y: 13
+X: 28 Y: 12
+X: 28 Y: 11
+X: 28 Y: 11
+X: 28 Y: 12
+X: 34 Y: 12
+DEAD: X: 82 Y: 15
+X: 34 Y: 12
+X: 42 Y: 14
+X: 58 Y: 14
+Total Deaths: 3
+Total Portals: 40
+Total Blue Shots: 27
+Total Orange Shots: 22
+Total Successfull Blue Portals: 20
+Total Successfull Orange Portals: 18
+END
+DEAD: X: 70 Y: 12
+--------------------------------------------------------------------------------
+05/08/25 12:28:40
+X: 11 Y: 14
+X: 11 Y: 14
+X: 6 Y: 14
+X: 24 Y: 10
+X: 39 Y: 12
+X: 30 Y: 12
+X: 47 Y: 10
+X: 34 Y: 14
+X: 172 Y: 14
+X: 164 Y: 12
+X: 180 Y: 13
+X: 190 Y: 6
+X: 195 Y: 14
+Level: 2
+X: 14 Y: 10
+X: 3 Y: 14
+X: 13 Y: 3
+X: 15 Y: 14
+X: 12 Y: 10
+X: 36 Y: 14
+X: 40 Y: 3
+X: 47 Y: 14
+X: 55 Y: 12
+X: 56 Y: 5
+X: 58 Y: 14
+X: 56 Y: 5
+X: 54 Y: 7
+X: 61 Y: 14
+X: 68 Y: 14
+X: 70 Y: 10
+X: 78 Y: 10
+X: 73 Y: 14
+X: 78 Y: 5
+X: 76 Y: 14
+X: 91 Y: 14
+X: 85 Y: 9
+DEAD: X: 114 Y: 9
+DEAD: X: 27 Y: 11
+Total Deaths: 2
+Total Portals: 35
+Total Blue Shots: 29
+Total Orange Shots: 20
+Total Successfull Blue Portals: 22
+Total Successfull Orange Portals: 13
 END
 --------------------------------------------------------------------------------
-05/06/25 21:31:50
-X: 7 Y: 14
-X: 5 Y: 14
-X: 6 Y: 14
-X: 6 Y: 14
-X: 6 Y: 14
-X: 7 Y: 14
-X: 7 Y: 14
-X: 7 Y: 14
-X: 7 Y: 14
-X: 7 Y: 14
-X: 7 Y: 14
-X: 7 Y: 14
-X: 7 Y: 14
-X: 7 Y: 14
+05/08/25 12:39:47
+X: 23 Y: 10
+X: 19 Y: 14
+X: 15 Y: 14
 X: 13 Y: 14
-X: 7 Y: 14
-X: 16 Y: 14
-X: 14 Y: 14
-X: 4 Y: 14
+X: 39 Y: 12
+X: 21 Y: 10
+X: 55 Y: 14
+X: 90 Y: 15
+X: 102 Y: 14
+X: 112 Y: 14
+X: 92 Y: 14
+X: 104 Y: 14
+X: 111 Y: 14
+X: 118 Y: 14
+X: 114 Y: 14
+X: 123 Y: 14
+X: 125 Y: 14
+X: 120 Y: 14
+X: 109 Y: 14
+X: 102 Y: 10
+X: 115 Y: 14
+X: 111 Y: 14
+X: 118 Y: 14
+DEAD: X: 169 Y: 12
+X: 170 Y: 14
+X: 165 Y: 12
+X: 100 Y: 14
+X: 102 Y: 10
+X: 108 Y: 14
+X: 100 Y: 14
+X: 92 Y: 14
+X: 121 Y: 14
+X: 114 Y: 14
+X: 165 Y: 12
+X: 171 Y: 14
+Level: 2
+X: 1 Y: 12
 X: 3 Y: 14
+X: 1 Y: 12
+X: 1 Y: 12
+X: 1 Y: 3
+X: 1 Y: 8
+X: 1 Y: 9
+X: 1 Y: 10
+X: 1 Y: 11
+X: 16 Y: 3
+X: 37 Y: 14
+X: 47 Y: 3
+X: 43 Y: 8
+X: 54 Y: 3
+X: 42 Y: 8
+Total Deaths: 1
+Total Portals: 49
+Total Blue Shots: 22
+Total Orange Shots: 39
+Total Successfull Blue Portals: 15
+Total Successfull Orange Portals: 32
+END
 --------------------------------------------------------------------------------
-05/06/25 21:33:42
-X: 7 Y: 14
+05/08/25 12:53:51
+X: 22 Y: 10
+X: 29 Y: 13
+X: 40 Y: 12
+X: 47 Y: 13
+X: 40 Y: 12
+X: 47 Y: 10
+X: 58 Y: 13
+DEAD: X: 76 Y: 12
+X: 79 Y: 10
+X: 68 Y: 14
+X: 94 Y: 6
+X: 84 Y: 14
+DEAD: X: 102 Y: 12
+Total Deaths: 3
+Total Portals: 13
+Total Blue Shots: 16
+Total Orange Shots: 9
+Total Successfull Blue Portals: 7
+Total Successfull Orange Portals: 6
+END
+X: 166 Y: 14
+X: 172 Y: 10
+DEAD: X: 165 Y: 12
+--------------------------------------------------------------------------------
+05/08/25 13:04:43
+X: 29 Y: 13
+X: 23 Y: 14
+X: 36 Y: 14
+X: 45 Y: 14
+X: 58 Y: 13
+X: 56 Y: 14
+X: 49 Y: 14
+DEAD: X: 69 Y: 15
+X: 180 Y: 13
+Level: 2
+X: 39 Y: 3
+X: 36 Y: 14
+X: 41 Y: 3
+X: 40 Y: 3
+X: 52 Y: 14
+X: 60 Y: 14
+X: 68 Y: 10
+X: 87 Y: 3
+X: 85 Y: 14
+X: 146 Y: 14
+X: 137 Y: 10
+DEAD: X: 143 Y: 15
+X: 107 Y: 14
+DEAD: X: 129 Y: 12
+--------------------------------------------------------------------------------
+05/08/25 13:14:33
 X: 9 Y: 14
-X: 3 Y: 14
-X: 3 Y: 14
-X: 24 Y: 14
-X: 29 Y: 12
-X: 32 Y: 14
+DEAD: X: 10 Y: 12
+DEAD: X: 14 Y: 12
+X: 36 Y: 14
+X: 47 Y: 13
+X: 47 Y: 11
+X: 47 Y: 12
+X: 47 Y: 13
+X: 30 Y: 12
+DEAD: X: 154 Y: 15
+X: 9 Y: 14
+--------------------------------------------------------------------------------
+05/08/25 13:16:05 // data to not be used, tester played twice
+X: 20 Y: 14
+X: 191 Y: 14
+X: 193 Y: 14
+X: 196 Y: 14
+X: 193 Y: 14
+X: 190 Y: 6
+Level: 2
+X: 40 Y: 3
+X: 35 Y: 14
+X: 104 Y: 13
+DEAD: X: 116 Y: 8
+Total Deaths: 1
+Total Portals: 10
+Total Blue Shots: 7
+Total Orange Shots: 6
+Total Successfull Blue Portals: 5
+Total Successfull Orange Portals: 5
+END
 X: 13 Y: 14
 X: 21 Y: 14
-X: 48 Y: 10
-X: 49 Y: 14
-X: 34 Y: 14
-X: 39 Y: 11
-X: 59 Y: 12
-X: 58 Y: 10
-X: 48 Y: 12
-X: 65 Y: 14
-X: 72 Y: 14
-X: 78 Y: 14
-DEAD: X: 88 Y: 15
+--------------------------------------------------------------------------------
+05/08/25 13:36:19
+X: 21 Y: 14
+X: 9 Y: 14
+X: 22 Y: 10
+X: 21 Y: 14
+X: 23 Y: 14
+X: 32 Y: 14
+X: 37 Y: 14
+X: 47 Y: 12
+X: 44 Y: 14
+X: 64 Y: 14
+X: 8 Y: 3
+X: 3 Y: 14
+X: 7 Y: 11
+X: 167 Y: 14
+X: 174 Y: 14
+X: 176 Y: 14
+X: 180 Y: 12
+X: 194 Y: 14
+X: 192 Y: 14
+X: 190 Y: 6
+X: 194 Y: 14
+Level: 2
+X: 10 Y: 3
+X: 14 Y: 10
+X: 2 Y: 14
+X: 13 Y: 3
+X: 1 Y: 3
+X: 9 Y: 3
+X: 8 Y: 14
+X: 1 Y: 5
+X: 18 Y: 3
+X: 30 Y: 3
+X: 29 Y: 14
+X: 30 Y: 14
+X: 26 Y: 12
+X: 26 Y: 11
+X: 35 Y: 14
+X: 37 Y: 3
+X: 40 Y: 3
+X: 42 Y: 3
+X: 33 Y: 3
+X: 50 Y: 14
+X: 53 Y: 3
+X: 54 Y: 3
+Total Deaths: 0
+Total Portals: 45
+Total Blue Shots: 30
+Total Orange Shots: 23
+Total Successfull Blue Portals: 25
+Total Successfull Orange Portals: 19
+END
+--------------------------------------------------------------------------------
+05/08/25 13:46:02
+X: 24 Y: 10
+X: 22 Y: 10
+X: 22 Y: 10
+X: 23 Y: 10
+X: 22 Y: 10
+X: 29 Y: 13
+X: 29 Y: 13
+X: 39 Y: 13
+X: 29 Y: 13
+X: 37 Y: 14
+X: 47 Y: 12
+Level: 2
+X: 40 Y: 10
+X: 40 Y: 3
+X: 34 Y: 12
+X: 49 Y: 3
+X: 43 Y: 3
+X: 55 Y: 12
+X: 108 Y: 3
+X: 104 Y: 12
+X: 104 Y: 13
+X: 114 Y: 3
+X: 110 Y: 13
+X: 138 Y: 3
+X: 108 Y: 3
+X: 104 Y: 13
+DEAD: X: 154 Y: 15
+X: 110 Y: 13
+X: 114 Y: 3
 Total Deaths: 1
-Total Portals: 20
-Total Blue Portals: 32
-Total Orange Portals: 29
-Total Successfull Blue Portals: 15
+Total Portals: 27
+Total Blue Shots: 21
+Total Orange Shots: 15
+Total Successfull Blue Portals: 12
+Total Successfull Orange Portals: 13
+END
+--------------------------------------------------------------------------------
+05/08/25 14:03:19
+X: 9 Y: 14
+X: 15 Y: 14
+DEAD: X: 8 Y: 12
+X: 9 Y: 14
+X: 4 Y: 14
+X: 39 Y: 11
+X: 47 Y: 13
+X: 39 Y: 11
+X: 47 Y: 13
+X: 39 Y: 11
+X: 39 Y: 11
+DEAD: X: 46 Y: 12
+X: 76 Y: 14
+X: 66 Y: 14
+X: 82 Y: 6
+X: 84 Y: 6
+DEAD: X: 109 Y: 12
+Total Deaths: 3
+Total Portals: 14
+Total Blue Shots: 26
+Total Orange Shots: 2
+Total Successfull Blue Portals: 10
+Total Successfull Orange Portals: 2
+END
+--------------------------------------------------------------------------------
+05/08/25 14:10:13
+X: 5 Y: 14
+X: 13 Y: 14
+X: 47 Y: 13
+X: 116 Y: 14
+X: 123 Y: 6
+DEAD: X: 117 Y: 12
+X: 123 Y: 6
+X: 116 Y: 14
+Level: 2
+X: 6 Y: 14
+X: 15 Y: 3
+X: 37 Y: 14
+X: 40 Y: 3
+X: 53 Y: 3
+X: 49 Y: 14
+X: 13 Y: 3
+X: 7 Y: 14
+DEAD: X: 75 Y: 9
+X: 15 Y: 14
+X: 23 Y: 3
+X: 39 Y: 3
+X: 37 Y: 14
+X: 51 Y: 14
+X: 53 Y: 3
+X: 73 Y: 3
+X: 79 Y: 10
+X: 95 Y: 3
+X: 93 Y: 14
+X: 103 Y: 3
+X: 109 Y: 3
+X: 113 Y: 3
+X: 104 Y: 13
+Total Deaths: 3
+Total Portals: 31
+Total Blue Shots: 19
+Total Orange Shots: 17
+Total Successfull Blue Portals: 17
+Total Successfull Orange Portals: 14
+END
+DEAD: X: 125 Y: 15
+X: 124 Y: 3
+X: 114 Y: 14
+--------------------------------------------------------------------------------
+05/08/25 14:18:53
+X: 8 Y: 14
+X: 39 Y: 11
+X: 30 Y: 12
+X: 29 Y: 13
+X: 44 Y: 14
+X: 50 Y: 14
+X: 47 Y: 10
+X: 75 Y: 14
+X: 96 Y: 14
+X: 80 Y: 14
+X: 101 Y: 10
+DEAD: X: 83 Y: 12
+Total Deaths: 1
+Total Portals: 11
+Total Blue Shots: 11
+Total Orange Shots: 9
+Total Successfull Blue Portals: 6
+Total Successfull Orange Portals: 5
+END
+--------------------------------------------------------------------------------
+05/08/25 14:32:02
+X: 16 Y: 14
+X: 22 Y: 10
+X: 22 Y: 10
+X: 18 Y: 14
+X: 20 Y: 14
+X: 25 Y: 10
+X: 56 Y: 14
+X: 97 Y: 14
+X: 105 Y: 14
+DEAD: X: 105 Y: 12
+X: 124 Y: 6
+X: 123 Y: 6
+X: 115 Y: 14
+X: 166 Y: 14
+X: 171 Y: 10
+X: 171 Y: 10
+Level: 2
+Total Deaths: 1
+Total Portals: 15
+Total Blue Shots: 18
+Total Orange Shots: 5
+Total Successfull Blue Portals: 10
+Total Successfull Orange Portals: 4
+END
+--------------------------------------------------------------------------------
+05/08/25 15:03:15
+X: 12 Y: 14
+X: 20 Y: 14
+X: 145 Y: 14
+DEAD: X: 151 Y: 8
+X: 190 Y: 7
+X: 196 Y: 14
+Level: 2
+X: 35 Y: 3
+X: 45 Y: 3
+X: 35 Y: 14
+X: 114 Y: 3
+X: 108 Y: 3
+X: 99 Y: 14
+X: 106 Y: 14
+X: 129 Y: 3
+X: 118 Y: 14
+Total Deaths: 1
+Total Portals: 14
+Total Blue Shots: 9
+Total Orange Shots: 8
+Total Successfull Blue Portals: 7
+Total Successfull Orange Portals: 7
+END
+--------------------------------------------------------------------------------
+05/08/25 15:16:26
+X: 29 Y: 12
+X: 39 Y: 12
+X: 39 Y: 12
+X: 39 Y: 13
+X: 58 Y: 13
+Level: 2
+X: 12 Y: 3
+X: 3 Y: 14
+DEAD: X: 9 Y: 10
+DEAD: X: 158 Y: 15
+Total Deaths: 2
+Total Portals: 7
+Total Blue Shots: 5
+Total Orange Shots: 5
+Total Successfull Blue Portals: 3
 Total Successfull Orange Portals: 3
 END
 --------------------------------------------------------------------------------
-05/06/25 21:35:12
-X: 5 Y: 14
-X: 2 Y: 14
-X: 14 Y: 14
-X: 14 Y: 14
-X: 14 Y: 14
-X: 14 Y: 14
-X: 14 Y: 14
-X: 14 Y: 14
-X: 14 Y: 14
-X: 14 Y: 14
-X: 14 Y: 14
-X: 14 Y: 14
-X: 14 Y: 14
-X: 14 Y: 14
-X: 14 Y: 14
-X: 14 Y: 14
-X: 14 Y: 14
-X: 14 Y: 14
-X: 14 Y: 14
-X: 14 Y: 14
-Total Deaths: 0
-Total Portals: 28
-Total Blue Portals: 33
-Total Orange Portals: 16
-Total Successfull Blue Portals: 2
+05/08/25 15:51:04
+X: 25 Y: 10
+X: 6 Y: 14
+X: 39 Y: 13
+X: 37 Y: 14
+X: 63 Y: 14
+X: 66 Y: 14
+DEAD: X: 70 Y: 15
+X: 86 Y: 6
+DEAD: X: 171 Y: 12
+X: 94 Y: 6
+Level: 2
+X: 21 Y: 3
+Total Deaths: 2
+Total Portals: 9
+Total Blue Shots: 12
+Total Orange Shots: 5
+Total Successfull Blue Portals: 6
 Total Successfull Orange Portals: 3
 END
-X: 20 Y: 14
-X: 20 Y: 14
-X: 20 Y: 14
-X: 20 Y: 14
-X: 20 Y: 14
-X: 20 Y: 14
-X: 20 Y: 14
-X: 19 Y: 14
+--------------------------------------------------------------------------------
+05/08/25 16:07:32
+X: 3 Y: 14
+X: 23 Y: 10
+X: 27 Y: 14
+X: 41 Y: 14
+X: 29 Y: 13
+X: 58 Y: 13
+X: 78 Y: 14
+X: 80 Y: 10
+X: 79 Y: 14
+X: 101 Y: 14
+X: 94 Y: 14
+X: 108 Y: 14
+X: 109 Y: 14
+X: 120 Y: 14
+X: 107 Y: 14
+X: 86 Y: 6
+DEAD: X: 108 Y: 12
+X: 87 Y: 6
+X: 93 Y: 14
+X: 103 Y: 14
+DEAD: X: 87 Y: 15
+X: 83 Y: 6
+X: 100 Y: 14
+X: 82 Y: 6
+X: 106 Y: 14
+X: 118 Y: 14
+X: 123 Y: 14
+X: 169 Y: 14
+Level: 2
+X: 9 Y: 3
+X: 1 Y: 12
+X: 47 Y: 14
+X: 37 Y: 14
+X: 40 Y: 3
+X: 53 Y: 14
+X: 47 Y: 10
+X: 48 Y: 14
+Total Deaths: 3
+Total Portals: 34
+Total Blue Shots: 29
+Total Orange Shots: 22
+Total Successfull Blue Portals: 23
+Total Successfull Orange Portals: 11
+END
+DEAD: X: 70 Y: 12
+--------------------------------------------------------------------------------
+05/08/25 16:23:16
+DEAD: X: 14 Y: 12
+X: 29 Y: 13
+X: 58 Y: 13
+X: 58 Y: 12
+X: 58 Y: 11
+X: 59 Y: 11
+X: 66 Y: 14
+DEAD: X: 70 Y: 15
+DEAD: X: 54 Y: 12
+Total Deaths: 4
+Total Portals: 7
+Total Blue Shots: 12
+Total Orange Shots: 2
+Total Successfull Blue Portals: 6
+Total Successfull Orange Portals: 1
+END
+DEAD: X: 56 Y: 12
+X: 48 Y: 10
