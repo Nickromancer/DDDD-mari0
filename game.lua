@@ -2614,7 +2614,7 @@ function generatespritebatch()
 end
 
 function game_keypressed(key, unicode)
-	file = assert(io.open("C:\\Users\\Nicky\\Desktop\\DDDD-mari0\\ABTests\\Log.txt", "a"))
+	file = assert(io.open("/Users/ma/gits/love/DDDD-mari0/ABTests/Log.txt", "a"))
 	io.input(file)
 	if pausemenuopen then
 		if menuprompt then
