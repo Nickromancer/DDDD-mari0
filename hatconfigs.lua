@@ -21,17 +21,19 @@ hat[i].graphic = love.graphics.newImage("graphics/SMB/hats/standard.png");hat[i]
 
 i = 2
 hat[i] = {}
-hat[i].x = 5
-hat[i].y = -3
-hat[i].height = 4
-hat[i].graphic = love.graphics.newImage("graphics/SMB/hats/tyrolean.png");hat[i].graphic:setFilter("nearest", "nearest")
+hat[i].x = 4
+hat[i].y = -5
+hat[i].height = 9
+hat[i].graphic = love.graphics.newImage("graphics/SMB/hats/tophat.png");hat[i].graphic:setFilter("nearest", "nearest")
+
 
 i = 3
 hat[i] = {}
 hat[i].x = 5
-hat[i].y = -1
+hat[i].y = -3
 hat[i].height = 4
-hat[i].graphic = love.graphics.newImage("graphics/SMB/hats/towering1.png");hat[i].graphic:setFilter("nearest", "nearest")
+hat[i].graphic = love.graphics.newImage("graphics/SMB/hats/portal-none.png");hat[i].graphic:setFilter("nearest", "nearest")
+
 
 i = 4
 hat[i] = {}
@@ -106,9 +108,9 @@ hat[i].graphic = love.graphics.newImage("graphics/SMB/hats/crown.png");hat[i].gr
 i = 14
 hat[i] = {}
 hat[i].x = 5
-hat[i].y = -5
-hat[i].height = 9
-hat[i].graphic = love.graphics.newImage("graphics/SMB/hats/tophat.png");hat[i].graphic:setFilter("nearest", "nearest")
+hat[i].y = -1
+hat[i].height = 4
+hat[i].graphic = love.graphics.newImage("graphics/SMB/hats/towering1.png");hat[i].graphic:setFilter("nearest", "nearest")
 
 i = 15
 hat[i] = {}
@@ -208,13 +210,30 @@ hat[i].y = -3
 hat[i].height = 5
 hat[i].graphic = love.graphics.newImage("graphics/SMB/hats/koopa.png")
 
-table.insert(hat, {x = 5, y = -5, height = 5, graphic = love.graphics.newImage("graphics/SMB/hats/blooper.png")})
+i = 29
+hat[i] = {}
+hat[i].x = 4
+hat[i].y = -5
+hat[i].height = 9
+hat[i].graphic = love.graphics.newImage("graphics/SMB/hats/tophat-o.png");hat[i].graphic:setFilter("nearest", "nearest")
 
---30:
-table.insert(hat, {x = 7, y = 1, height = 2, graphic = love.graphics.newImage("graphics/SMB/hats/shyguy.png")})
+i = 30
+hat[i] = {}
+hat[i].x = 4
+hat[i].y = -5
+hat[i].height = 9
+hat[i].graphic = love.graphics.newImage("graphics/SMB/hats/tophat-b.png");hat[i].graphic:setFilter("nearest", "nearest")
 
-table.insert(hat, {x = 6, y = 4, height = 4, graphic = love.graphics.newImage("graphics/SMB/hats/goodnewseverybody.png")})
+i = 31
+hat[i] = {}
+hat[i].x = 4
+hat[i].y = -5
+hat[i].height = 9
+hat[i].graphic = love.graphics.newImage("graphics/SMB/hats/tophat-o-both.png");hat[i].graphic:setFilter("nearest", "nearest")
 
-table.insert(hat, {x = 5, y = 1, height = 4, graphic = love.graphics.newImage("graphics/SMB/hats/jetset.png")})
-
-table.insert(hat, {x = 6, y = 1, height = 4, graphic = love.graphics.newImage("graphics/SMB/hats/bestpony.png")})
+i = 32
+hat[i] = {}
+hat[i].x = 4
+hat[i].y = -5
+hat[i].height = 9
+hat[i].graphic = love.graphics.newImage("graphics/SMB/hats/tophat-b-both.png");hat[i].graphic:setFilter("nearest", "nearest")

@@ -1644,7 +1644,6 @@ function game_draw()
 								end
 							end
 
-
 							if portalpossible == false then
 								love.graphics.setColor(1, 0, 0, alpha)
 							else
@@ -1652,6 +1651,27 @@ function game_draw()
 							end
 
 							love.graphics.draw(portaldotimg, math.floor(dotx-0.25*scale), math.floor(doty-0.25*scale), 0, scale, scale)
+						end
+					end
+
+					-- matDDDD draw hat at portal destination
+					if portalpossible and objects["player"][pl].hats2 and #objects["player"][pl].hats2 > 0 then
+						local hatid = objects["player"][pl].hats2[1]
+						local img, offsetX, offsetY
+
+						if objects["player"][pl].size == 2 and bighat[hatid] then
+							img = bighat[hatid].graphic
+							offsetX = 6
+							offsetY = 0
+						elseif hat[hatid] then
+							img = hat[hatid].graphic
+							offsetX = 6
+							offsetY = 0
+						end
+
+						if img then
+							love.graphics.setColor(1, 1, 1, 1)
+							love.graphics.draw(img, (x-xscroll)*16*scale, (y-.5)*16*scale, 0, scale, scale, offsetX, offsetY)
 						end
 					end
 
@@ -2224,6 +2244,9 @@ function startlevel(level)
 		else
 			objects["player"][i] = mario:new(1.5 + (i-1)*mul-6/16+1.5, 13, i, animation, mariosizes[i], playertype)
 		end
+	
+		-- matdddd
+		objects["player"][i].hats2 = {2} -- initialize portal hat 
 	end
 
 	--PLAY BGM
@@ -2719,6 +2742,13 @@ function game_keypressed(key, unicode)
 		return
 	end
 
+	--matdddd
+	if key == "r" then
+		local player = objects["player"][1]
+		player.hats2 = {2}
+		player.bighats = {2}
+	end
+
 	if endpressbutton then
 		endpressbutton = false
 		endgame()
@@ -2925,6 +2955,22 @@ function shootportal(plnumber, i, sourcex, sourcey, direction)
 
 	local cox, coy, side, tendency, x, y = traceline(sourcex, sourcey, direction)
 	table.insert(portalprojectiles, portalprojectile:new(sourcex, sourcey, x, y, color, true, {plnumber, i, cox, coy, side, tendency, x, y}))
+
+
+	--Matdddd
+	local player = objects["player"][plnumber] 
+
+	if i == 1 and player.portal2X then
+		player.hats2 = {32}
+	elseif i == 1 then
+		player.hats2 = {30}
+	end
+	
+	if i == 2 and player.portal1X then
+		player.hats2 = {31}
+	elseif i == 2 then
+		player.hats2 = {29}
+	end
 end
 
 function game_mousepressed(x, y, button)
@@ -2958,6 +3004,8 @@ function game_mousepressed(x, y, button)
 					local sourcex = objects["player"][mouseowner].x+6/16
 					local sourcey = objects["player"][mouseowner].y+6/16
 					local direction = objects["player"][mouseowner].pointingangle
+					
+
 
 					shootportal(mouseowner, 1, sourcex, sourcey, direction)
 					bluePortalCount = bluePortalCount + 1
@@ -3974,6 +4022,7 @@ function game_joystickpressed( joystick, button )
 				return
 			elseif s3[1] == "joy" and joystick == s3[2] and s3[3] == "but" and button == s3[4] then
 				objects["player"][i]:removeportals()
+
 				return
 			elseif s4[1] == "joy" and joystick == s4[2] and s4[3] == "but" and button == s4[4] then
 				objects["player"][i]:use()
